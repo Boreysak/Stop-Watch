@@ -13,7 +13,7 @@ document.querySelector('#pause-time').addEventListener('click', ()=>{
   x = clearInterval(x);
 });
 
-document.querySelector('#reset-button').addEventListener('click', ()=>{
+document.querySelector('#reset-time').addEventListener('click', ()=>{
   x = clearInterval(x);
   timeRef.innerHTML = "00 : 00 : 00 : 000";
 });
